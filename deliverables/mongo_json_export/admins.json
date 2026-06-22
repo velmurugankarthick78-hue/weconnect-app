@@ -1,0 +1,9 @@
+[{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882de"
+	},
+	"email": "admin@weconnect.app",
+	"password_hash": "$2b$12$0tRXvziJQQD47vw0HDPWX.tb1dpENEqZOy9pdo2kzOqiPEJjbekg2",
+	"createdAt": "2026-06-22T12:31:38.898825+00:00"
+}]
+

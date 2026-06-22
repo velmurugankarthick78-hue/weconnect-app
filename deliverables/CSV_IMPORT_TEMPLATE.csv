@@ -1,0 +1,4 @@
+businessName,category,ownerName,mobileNumber,whatsappNumber,address,city,district,googleMapsLink,imageUrl,description
+Sample Hotel,hotels,Anand,9876543210,9876543210,Main Road,Palayamkottai,Tirunelveli,https://maps.google.com/?q=8.72,77.74,https://example.com/hotel.jpg,AC rooms with restaurant
+Power Battery,battery,Karthik,9000011112,,Bypass Road,Tirunelveli,Tirunelveli,,,Inverter & car batteries
+Hotel Sea View,hotels,Antony,9842345671,9842345671,Beach Road,Thoothukudi,Thoothukudi,https://www.google.com/maps/search/?api=1&query=8.7642,78.1348,https://example.com/seaview.jpg,Sea-facing rooms

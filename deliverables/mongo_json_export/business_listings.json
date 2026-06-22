@@ -1,0 +1,457 @@
+[{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882df"
+	},
+	"id": "ad177437-0e1f-4d5b-9e77-6601a267892a",
+	"businessName": "Iruttu Kadai Halwa Shop",
+	"category": "restaurants",
+	"ownerName": "Selvaraj",
+	"mobileNumber": "9442123456",
+	"whatsappNumber": null,
+	"address": "West Car Street, Tirunelveli Town",
+	"city": "",
+	"district": "Tirunelveli",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.7139,77.7567",
+	"imageUrl": "https://images.pexels.com/photos/34487094/pexels-photo-34487094.jpeg",
+	"description": "Famous halwa shop since 1900s.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761574+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882e0"
+	},
+	"id": "3bc8bd8e-e0ca-4b7b-a206-a369576d3d4c",
+	"businessName": "Hotel Aryaas",
+	"category": "hotels",
+	"ownerName": "Murugan",
+	"mobileNumber": "9842234567",
+	"whatsappNumber": null,
+	"address": "67 Madurai Road, Tirunelveli Junction",
+	"city": "",
+	"district": "Tirunelveli",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.7256,77.69",
+	"imageUrl": "https://images.pexels.com/photos/34487094/pexels-photo-34487094.jpeg",
+	"description": "AC rooms with restaurant.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761639+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882e1"
+	},
+	"id": "77f694b9-f1d9-40ec-9960-49b558dfd182",
+	"businessName": "Galaxy Hospital",
+	"category": "hospitals",
+	"ownerName": "Dr. Karthik",
+	"mobileNumber": "9842345678",
+	"whatsappNumber": null,
+	"address": "Palayamkottai Main Road, Tirunelveli",
+	"city": "",
+	"district": "Tirunelveli",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.7283,77.7341",
+	"imageUrl": "https://images.pexels.com/photos/668300/pexels-photo-668300.jpeg",
+	"description": "Multi-speciality hospital, 24x7 emergency.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761659+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882e2"
+	},
+	"id": "016f4fd2-d2de-4fc6-a68f-cda001dbc3b7",
+	"businessName": "Power Battery World",
+	"category": "battery",
+	"ownerName": "Ramesh",
+	"mobileNumber": "9943456789",
+	"whatsappNumber": null,
+	"address": "Bypass Road, Vannarpettai, Tirunelveli",
+	"city": "",
+	"district": "Tirunelveli",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.7194,77.735",
+	"imageUrl": "https://images.pexels.com/photos/4374843/pexels-photo-4374843.jpeg",
+	"description": "All brands - Exide, Amaron, Luminous.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761673+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882e3"
+	},
+	"id": "46184ef7-aa41-4285-a36c-38d8af041c53",
+	"businessName": "Sakthi Electricals",
+	"category": "electricians",
+	"ownerName": "Vinoth Kumar",
+	"mobileNumber": "9789567890",
+	"whatsappNumber": null,
+	"address": "Tower Junction, Tirunelveli Town",
+	"city": "",
+	"district": "Tirunelveli",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.715,77.748",
+	"imageUrl": "https://images.pexels.com/photos/9679179/pexels-photo-9679179.jpeg",
+	"description": "Wiring, repairs, installations.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761684+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882e4"
+	},
+	"id": "ed983dc1-699c-4e76-8f9e-13f91525a495",
+	"businessName": "Senthil Plumbing Works",
+	"category": "plumbers",
+	"ownerName": "Senthil Kumar",
+	"mobileNumber": "9787678901",
+	"whatsappNumber": null,
+	"address": "VOC Nagar, Palayamkottai",
+	"city": "",
+	"district": "Tirunelveli",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.73,77.735",
+	"imageUrl": "https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg",
+	"description": "24/7 emergency plumbing.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761695+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882e5"
+	},
+	"id": "4a089a48-4b18-4fb9-96dc-f7f6c1417d13",
+	"businessName": "Sri Lakshmi Auto Service",
+	"category": "auto",
+	"ownerName": "Babu",
+	"mobileNumber": "9043789012",
+	"whatsappNumber": null,
+	"address": "NH-7 Bypass, Tirunelveli",
+	"city": "",
+	"district": "Tirunelveli",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.71,77.71",
+	"imageUrl": "https://images.pexels.com/photos/4374843/pexels-photo-4374843.jpeg",
+	"description": "Cars, bikes, all repairs.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761707+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882e6"
+	},
+	"id": "a64bcc8e-bce5-4317-987d-d7634fb03db1",
+	"businessName": "Aalayam Restaurant",
+	"category": "restaurants",
+	"ownerName": "Mohan",
+	"mobileNumber": "9842890123",
+	"whatsappNumber": null,
+	"address": "Trivandrum Road, Tirunelveli",
+	"city": "",
+	"district": "Tirunelveli",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.722,77.7",
+	"imageUrl": "https://images.pexels.com/photos/34487094/pexels-photo-34487094.jpeg",
+	"description": "South Indian veg meals.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761721+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882e7"
+	},
+	"id": "98638d32-ebc9-42d0-80af-96f6909cecd6",
+	"businessName": "Green Leaf Hospital",
+	"category": "hospitals",
+	"ownerName": "Dr. Priya",
+	"mobileNumber": "9786901234",
+	"whatsappNumber": null,
+	"address": "Vannarpettai, Tirunelveli",
+	"city": "",
+	"district": "Tirunelveli",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.718,77.738",
+	"imageUrl": "https://images.pexels.com/photos/668300/pexels-photo-668300.jpeg",
+	"description": "Children & maternity care.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761735+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882e8"
+	},
+	"id": "534d823e-902e-4738-9d1b-e8ae5dc0a977",
+	"businessName": "Rolex Salon",
+	"category": "salons",
+	"ownerName": "Anand",
+	"mobileNumber": "9043012345",
+	"whatsappNumber": null,
+	"address": "Trivandrum Road, Tirunelveli Junction",
+	"city": "",
+	"district": "Tirunelveli",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.725,77.692",
+	"imageUrl": "https://images.pexels.com/photos/3992874/pexels-photo-3992874.jpeg",
+	"description": "Unisex salon, AC.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761746+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882e9"
+	},
+	"id": "be38c52c-c2cc-456a-9668-2d4b99b869c5",
+	"businessName": "Saravana Stores",
+	"category": "grocery",
+	"ownerName": "Saravanan",
+	"mobileNumber": "9842123450",
+	"whatsappNumber": null,
+	"address": "Melapalayam, Tirunelveli",
+	"city": "",
+	"district": "Tirunelveli",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.7,77.73",
+	"imageUrl": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg",
+	"description": "Daily groceries, home delivery.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761756+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882ea"
+	},
+	"id": "11930629-92f7-43d1-8368-e9e7d95051aa",
+	"businessName": "Amaron Battery Point",
+	"category": "battery",
+	"ownerName": "Karthik",
+	"mobileNumber": "9994234561",
+	"whatsappNumber": null,
+	"address": "Junction Main Road, Tirunelveli",
+	"city": "",
+	"district": "Tirunelveli",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.723,77.695",
+	"imageUrl": "https://images.pexels.com/photos/4374843/pexels-photo-4374843.jpeg",
+	"description": "Inverter & car batteries.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761767+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882eb"
+	},
+	"id": "e248d111-f470-4132-848d-69aca3dab9ff",
+	"businessName": "Hotel Sea View",
+	"category": "hotels",
+	"ownerName": "Antony",
+	"mobileNumber": "9842345671",
+	"whatsappNumber": null,
+	"address": "Beach Road, Thoothukudi",
+	"city": "",
+	"district": "Thoothukudi",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.7642,78.1348",
+	"imageUrl": "https://images.pexels.com/photos/34487094/pexels-photo-34487094.jpeg",
+	"description": "Sea-facing rooms, AC.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761777+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882ec"
+	},
+	"id": "c4fd988e-579f-4774-88ae-acf74916d1bf",
+	"businessName": "Pearl City Hospital",
+	"category": "hospitals",
+	"ownerName": "Dr. Stephen",
+	"mobileNumber": "9943567812",
+	"whatsappNumber": null,
+	"address": "Palayamkottai Road, Thoothukudi",
+	"city": "",
+	"district": "Thoothukudi",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.77,78.13",
+	"imageUrl": "https://images.pexels.com/photos/668300/pexels-photo-668300.jpeg",
+	"description": "Multi-speciality, ICU.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761789+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882ed"
+	},
+	"id": "efb30de8-7442-4932-95f1-ada82e7a1049",
+	"businessName": "Coastal Battery Shop",
+	"category": "battery",
+	"ownerName": "Mariappan",
+	"mobileNumber": "9789678923",
+	"whatsappNumber": null,
+	"address": "Harbour Road, Thoothukudi",
+	"city": "",
+	"district": "Thoothukudi",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.765,78.14",
+	"imageUrl": "https://images.pexels.com/photos/4374843/pexels-photo-4374843.jpeg",
+	"description": "Marine & auto batteries.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761799+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882ee"
+	},
+	"id": "467bcab4-0fe3-4391-b324-b07023469ac3",
+	"businessName": "Selva Electricals",
+	"category": "electricians",
+	"ownerName": "Selvam",
+	"mobileNumber": "9787789034",
+	"whatsappNumber": null,
+	"address": "Thoothukudi Old Bus Stand",
+	"city": "",
+	"district": "Thoothukudi",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.7625,78.131",
+	"imageUrl": "https://images.pexels.com/photos/9679179/pexels-photo-9679179.jpeg",
+	"description": "Home & commercial wiring.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761808+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882ef"
+	},
+	"id": "77b65aaf-3f4b-4920-9633-50f406060ce6",
+	"businessName": "Royal Plumbing",
+	"category": "plumbers",
+	"ownerName": "John Peter",
+	"mobileNumber": "9043890145",
+	"whatsappNumber": null,
+	"address": "Millerpuram, Thoothukudi",
+	"city": "",
+	"district": "Thoothukudi",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.771,78.126",
+	"imageUrl": "https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg",
+	"description": "RO, motors, fittings.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761818+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882f0"
+	},
+	"id": "925cdccf-299c-4eab-bf35-679539ab8b62",
+	"businessName": "Marina Auto Garage",
+	"category": "auto",
+	"ownerName": "Stephen Raj",
+	"mobileNumber": "9842901256",
+	"whatsappNumber": null,
+	"address": "Port Road, Thoothukudi",
+	"city": "",
+	"district": "Thoothukudi",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.766,78.138",
+	"imageUrl": "https://images.pexels.com/photos/4374843/pexels-photo-4374843.jpeg",
+	"description": "Cars & trucks, all brands.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761827+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882f1"
+	},
+	"id": "e36ca7d5-2d5e-48d0-83c2-4fadfeed8610",
+	"businessName": "Macrons Restaurant",
+	"category": "restaurants",
+	"ownerName": "Velu",
+	"mobileNumber": "9786012367",
+	"whatsappNumber": null,
+	"address": "Beach Road, Thoothukudi",
+	"city": "",
+	"district": "Thoothukudi",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.7635,78.137",
+	"imageUrl": "https://images.pexels.com/photos/34487094/pexels-photo-34487094.jpeg",
+	"description": "Seafood specialities.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761837+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882f2"
+	},
+	"id": "9660ad3f-ca9d-4117-90ec-4f8de373ea95",
+	"businessName": "Style Studio Salon",
+	"category": "salons",
+	"ownerName": "Manoj",
+	"mobileNumber": "9442123478",
+	"whatsappNumber": null,
+	"address": "George Road, Thoothukudi",
+	"city": "",
+	"district": "Thoothukudi",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.768,78.129",
+	"imageUrl": "https://images.pexels.com/photos/3992874/pexels-photo-3992874.jpeg",
+	"description": "Hair, beard, facial.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761846+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882f3"
+	},
+	"id": "a360a32c-08ec-4e4b-87a8-29040be4488e",
+	"businessName": "Annai Grocery Mart",
+	"category": "grocery",
+	"ownerName": "Devi",
+	"mobileNumber": "9994234589",
+	"whatsappNumber": null,
+	"address": "Anna Nagar, Thoothukudi",
+	"city": "",
+	"district": "Thoothukudi",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.772,78.134",
+	"imageUrl": "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg",
+	"description": "Wholesale & retail.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761856+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882f4"
+	},
+	"id": "ec82a5d1-c645-44c2-abef-3ba3024ec6a9",
+	"businessName": "Sun Hotels",
+	"category": "hotels",
+	"ownerName": "Bharath",
+	"mobileNumber": "9842345690",
+	"whatsappNumber": null,
+	"address": "Trichy Road, Thoothukudi",
+	"city": "",
+	"district": "Thoothukudi",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.76,78.125",
+	"imageUrl": "https://images.pexels.com/photos/34487094/pexels-photo-34487094.jpeg",
+	"description": "Budget AC stay.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761866+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a392b2af43aa7bb665882f5"
+	},
+	"id": "26bb20dc-bf01-4c10-b1d4-c5b660a519be",
+	"businessName": "City Care Hospital",
+	"category": "hospitals",
+	"ownerName": "Dr. Vinodh",
+	"mobileNumber": "9043456712",
+	"whatsappNumber": null,
+	"address": "Bryant Nagar, Thoothukudi",
+	"city": "",
+	"district": "Thoothukudi",
+	"googleMapsLink": "https://www.google.com/maps/search/?api=1&query=8.769,78.132",
+	"imageUrl": "https://images.pexels.com/photos/668300/pexels-photo-668300.jpeg",
+	"description": "General medicine, surgery.",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T05:53:02.761875+00:00"
+},
+{
+	"_id": {
+		"$oid": "6a3930aaf43aa7bb665882f9"
+	},
+	"id": "0e890f29-ebbf-40e4-b732-bf7addd0c8b2",
+	"businessName": "sun power system",
+	"category": "hotels",
+	"ownerName": "Solomon",
+	"mobileNumber": "9842187111",
+	"whatsappNumber": "9842187111",
+	"address": "Dinakaran Paper Building, No3, S Bypass Rd, opp. to Rosemary Hospital, Vannarpettai, Tirunelveli, Tamil Nadu 627003",
+	"city": "vannarpettai",
+	"district": "Tirunelveli",
+	"googleMapsLink": null,
+	"imageUrl": null,
+	"description": "battery shop and solar power system",
+	"rating": 4.5,
+	"createdAt": "2026-06-22T12:55:06.219414+00:00"
+}]
+
