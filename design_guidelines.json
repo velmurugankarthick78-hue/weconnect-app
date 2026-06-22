@@ -1,0 +1,252 @@
+{
+  "app_name": "We Connect",
+  "personality": "1 iOS-Native Clean",
+  "personality_one_liner": "A highly readable, location-first directory that frames local businesses with crisp typography, generous spacing, and vibrant warm accents.",
+  "color": {
+    "surface": {
+      "light": "#FFFFFF",
+      "dark": "#0F172A"
+    },
+    "onSurface": {
+      "light": "#0F172A",
+      "dark": "#F8FAFC"
+    },
+    "surfaceSecondary": {
+      "light": "#F8FAFC",
+      "dark": "#1E293B"
+    },
+    "onSurfaceSecondary": {
+      "light": "#334155",
+      "dark": "#E2E8F0"
+    },
+    "surfaceTertiary": {
+      "light": "#F1F5F9",
+      "dark": "#334155"
+    },
+    "onSurfaceTertiary": {
+      "light": "#475569",
+      "dark": "#CBD5E1"
+    },
+    "surfaceInverse": {
+      "light": "#0F172A",
+      "dark": "#FFFFFF"
+    },
+    "onSurfaceInverse": {
+      "light": "#FFFFFF",
+      "dark": "#0F172A"
+    },
+    "brand": {
+      "light": "#1E3A8A",
+      "dark": "#60A5FA"
+    },
+    "brandPrimary": {
+      "light": "#EA580C",
+      "dark": "#F97316"
+    },
+    "onBrandPrimary": {
+      "light": "#FFFFFF",
+      "dark": "#FFFFFF"
+    },
+    "brandSecondary": {
+      "light": "#1E3A8A",
+      "dark": "#60A5FA"
+    },
+    "onBrandSecondary": {
+      "light": "#FFFFFF",
+      "dark": "#0F172A"
+    },
+    "brandTertiary": {
+      "light": "#EFF6FF",
+      "dark": "#1E3A8A"
+    },
+    "onBrandTertiary": {
+      "light": "#1E3A8A",
+      "dark": "#BFDBFE"
+    },
+    "success": {
+      "light": "#16A34A",
+      "dark": "#4ADE80"
+    },
+    "onSuccess": {
+      "light": "#FFFFFF",
+      "dark": "#022C22"
+    },
+    "warning": {
+      "light": "#D97706",
+      "dark": "#FBBF24"
+    },
+    "onWarning": {
+      "light": "#FFFFFF",
+      "dark": "#451A03"
+    },
+    "error": {
+      "light": "#DC2626",
+      "dark": "#F87171"
+    },
+    "onError": {
+      "light": "#FFFFFF",
+      "dark": "#450A0A"
+    },
+    "info": {
+      "light": "#2563EB",
+      "dark": "#60A5FA"
+    },
+    "onInfo": {
+      "light": "#FFFFFF",
+      "dark": "#0F172A"
+    },
+    "border": {
+      "light": "#E2E8F0",
+      "dark": "#334155"
+    },
+    "borderStrong": {
+      "light": "#CBD5E1",
+      "dark": "#475569"
+    },
+    "divider": {
+      "light": "#F1F5F9",
+      "dark": "#1E293B"
+    }
+  },
+  "typography": {
+    "displayFontFamily": "Plus Jakarta Sans",
+    "textFontFamily": "DM Sans",
+    "scale": {
+      "sm": 12,
+      "base": 14,
+      "lg": 16,
+      "xl": 20,
+      "2xl": 24
+    }
+  },
+  "spacing": {
+    "rule": "Generous iOS-native padding around content. Avoid dense grids. Whitespace frames actions.",
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24,
+    "2xl": 32,
+    "3xl": 48
+  },
+  "radius_tokens": {
+    "sm": 6,
+    "md": 12,
+    "lg": 20,
+    "pill": 999
+  },
+  "shadow_tier": 1,
+  "navigation": "stack_only",
+  "icon_set": "Phosphor",
+  "glassmorphism": {
+    "enabled": true,
+    "do's": [
+      "Sticky headers over scrolling content",
+      "Featured/Hero cards over imagery",
+      "Floating action buttons"
+    ],
+    "dont's": [
+      "List rows",
+      "Form inputs",
+      "Dense data cards"
+    ]
+  },
+  "platform_libraries": {
+    "glass": {
+      "ios": "expo-glass-effect",
+      "android": "expo-blur",
+      "low_end_android_fallback": "solid surfaceSecondary"
+    },
+    "image": "expo-image",
+    "blur": "expo-blur",
+    "bottom_sheet": "@gorhom/bottom-sheet",
+    "animation": "react-native-reanimated",
+    "gesture": "react-native-gesture-handler"
+  },
+  "haptics": {
+    "events": {
+      "tab_press": "light",
+      "cta_press": "medium",
+      "favorite_toggle": "light",
+      "category_select": "light",
+      "search_submit": "medium"
+    }
+  },
+  "screens": [
+    {
+      "name": "Home",
+      "purpose": "Serve as the location-first entry point for rapid category browsing and semantic search.",
+      "states": {
+        "loading": "Centered spinner",
+        "empty": "No businesses found in this area",
+        "error": "Unable to load area data"
+      },
+      "layout": "Header: Location filter (Tirunelveli / Thoothukudi) + profile avatar. Below header: A full-bleed Hero card with the city landscape image, overlaid with a top-to-bottom gradient scrim. The search bar floats over the bottom edge of this hero card. Below the fold: A 'Bento Box' 3-column grid of Categories (Battery, Hotels, etc.) using tinted containers."
+    },
+    {
+      "name": "Business Listings",
+      "purpose": "Display search or category results with immediate actionability.",
+      "states": {
+        "loading": "Skeleton cards",
+        "empty": "Illustration + 'No businesses found. Try adjusting filters.'",
+        "error": "Error message + Retry button"
+      },
+      "layout": "Vertical list of stacked bento-style cards. Card top: Name, Category, Rating. Card Middle: Address, Distance, Owner Name. Card Bottom (Action Row): Call (brandPrimary), WhatsApp (surfaceSecondary with brand icon), Maps (surfaceSecondary with brand icon). The action row must sit above the fold for easy tapping."
+    },
+    {
+      "name": "Business Detail",
+      "purpose": "Provide in-depth information and location context for a single business.",
+      "states": {
+        "loading": "Centered spinner",
+        "empty": "N/A",
+        "error": "Could not load business details"
+      },
+      "layout": "Hero: Large image of the business (or category fallback) with a gradient-to-dark scrim. Header becomes sticky glass on scroll. Content: Business Name, Owner Name, full address, map snapshot. Sticky bottom container: Full-width Call and WhatsApp action buttons."
+    },
+    {
+      "name": "Add Business",
+      "purpose": "Allow users/owners to list a new business.",
+      "states": {
+        "loading": "Submitting state on button",
+        "empty": "N/A",
+        "error": "Validation errors on inputs"
+      },
+      "layout": "Clean, single-column scrollable form. Labels above inputs. Sticky 'Submit Listing' primary CTA at the bottom inside a KeyboardAvoidingView."
+    }
+  ],
+  "images": {
+    "hero_city_landscape": {
+      "url": "https://images.pexels.com/photos/3792569/pexels-photo-3792569.jpeg",
+      "alt": "Vibrant city landscape with mountains representing Tirunelveli and Thoothukudi"
+    },
+    "category_auto_battery": {
+      "url": "https://images.pexels.com/photos/4374843/pexels-photo-4374843.jpeg",
+      "alt": "Car battery and auto service"
+    },
+    "category_hotel": {
+      "url": "https://images.pexels.com/photos/34487094/pexels-photo-34487094.jpeg",
+      "alt": "Modern hotel exterior architecture"
+    },
+    "category_hospital": {
+      "url": "https://images.pexels.com/photos/668300/pexels-photo-668300.jpeg",
+      "alt": "Modern hospital building"
+    },
+    "category_plumber": {
+      "url": "https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg",
+      "alt": "Plumber installing steel pipes"
+    },
+    "category_electrician": {
+      "url": "https://images.pexels.com/photos/9679179/pexels-photo-9679179.jpeg",
+      "alt": "Electrician working on panel"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use standard Expo fonts (Plus Jakarta Sans and DM Sans) loaded asynchronously. Do not exceed weight 500.",
+    "Implement the bento-box listing cards with a distinct bottom action row (Call, WhatsApp, Maps). 'Call' should be the prominent brandPrimary button.",
+    "Enforce the gradient-to-dark scrim pattern (Layer 1 transparent to >=70% surfaceInverse) on the Hero city landscape image and any Business Detail cover images.",
+    "Ensure safe area is respected at the root, and the Add Business/Detail screens use sticky CTA containers at the bottom above the home indicator.",
+    "Incorporate the district filter (Tirunelveli/Thoothukudi) at the very top of the Home screen, as location is the primary context.",
+    "Do NOT use emoji anywhere in the UI. Use Phosphor icons exclusively.",
+    "For the UI colors, use the provided Blue (brand) and Orange (brandPrimary) as explicitly requested by the user, avoiding default indigo."
+  ]
+}
