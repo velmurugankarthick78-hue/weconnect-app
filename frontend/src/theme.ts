@@ -13,6 +13,8 @@ export const colors = {
   brandTertiary: "#EFF6FF",
   onBrandTertiary: "#1E3A8A",
   success: "#16A34A",
+  warning: "#D97706",
+  error: "#DC2626",
   whatsapp: "#25D366",
   border: "#E2E8F0",
   borderStrong: "#CBD5E1",

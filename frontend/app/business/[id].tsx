@@ -63,24 +63,22 @@ export default function BusinessDetailScreen() {
 
   const call = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    Linking.openURL(`tel:${biz.mobile}`);
+    Linking.openURL(`tel:${biz.mobileNumber}`);
   };
   const whatsapp = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    const num = (biz.whatsapp || biz.mobile).replace(/\D/g, "");
+    const num = (biz.whatsappNumber || biz.mobileNumber).replace(/\D/g, "");
     const phone = num.length === 10 ? `91${num}` : num;
     Linking.openURL(`https://wa.me/${phone}`);
   };
   const maps = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    if (biz.latitude && biz.longitude) {
-      Linking.openURL(
-        `https://www.google.com/maps/search/?api=1&query=${biz.latitude},${biz.longitude}`
-      );
+    if (biz.googleMapsLink) {
+      Linking.openURL(biz.googleMapsLink);
     } else {
       Linking.openURL(
         `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-          biz.name + " " + biz.address
+          biz.businessName + " " + biz.address
         )}`
       );
     }
@@ -95,9 +93,9 @@ export default function BusinessDetailScreen() {
       >
         {/* Hero */}
         <View style={styles.hero}>
-          {biz.image_url ? (
+          {biz.imageUrl ? (
             <Image
-              source={{ uri: biz.image_url }}
+              source={{ uri: biz.imageUrl }}
               style={StyleSheet.absoluteFill}
               contentFit="cover"
               transition={300}
@@ -134,11 +132,13 @@ export default function BusinessDetailScreen() {
               </Text>
             </View>
             <Text style={styles.heroTitle} numberOfLines={2}>
-              {biz.name}
+              {biz.businessName}
             </Text>
             <View style={styles.heroMetaRow}>
               <Ionicons name="location" size={14} color="#fff" />
-              <Text style={styles.heroMetaText}>{biz.district}</Text>
+              <Text style={styles.heroMetaText}>
+                {biz.city ? `${biz.city}, ${biz.district}` : biz.district}
+              </Text>
               <View style={styles.dot} />
               <Ionicons name="star" size={14} color={colors.brandPrimary} />
               <Text style={styles.heroMetaText}>

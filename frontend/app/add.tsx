@@ -16,7 +16,7 @@ import { Ionicons } from "@expo/vector-icons";
 import * as Haptics from "expo-haptics";
 
 import { colors, spacing, radius, font } from "@/src/theme";
-import { createBusiness, getCategories, type Category } from "@/src/api";
+import { createBusinessPublic, getCategories, type Category } from "@/src/api";
 
 const DISTRICTS = ["Tirunelveli", "Thoothukudi"] as const;
 
@@ -60,17 +60,18 @@ export default function AddBusinessScreen() {
     }
     setSubmitting(true);
     try {
-      await createBusiness({
-        name: name.trim(),
-        owner_name: ownerName.trim(),
-        mobile: mobile.trim(),
-        whatsapp: whatsapp.trim() || mobile.trim(),
+      await createBusinessPublic({
+        businessName: name.trim(),
+        ownerName: ownerName.trim(),
+        mobileNumber: mobile.trim(),
+        whatsappNumber: whatsapp.trim() || mobile.trim(),
         address: address.trim(),
+        city: "",
         district,
         category,
         description: description.trim(),
-        image_url:
-          categories.find((c) => c.key === category)?.image_url || null,
+        imageUrl:
+          categories.find((c) => c.key === category)?.imageUrl || null,
       });
       Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success);
       showToast("Business listed successfully");

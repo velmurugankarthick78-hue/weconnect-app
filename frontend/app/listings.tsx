@@ -18,6 +18,15 @@ import * as Haptics from "expo-haptics";
 import { colors, spacing, radius, font } from "@/src/theme";
 import { listBusinesses, type Business } from "@/src/api";
 
+function openMapsLink(b: Business) {
+  if (b.googleMapsLink) {
+    return b.googleMapsLink;
+  }
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+    b.businessName + " " + b.address
+  )}`;
+}
+
 const DISTRICTS = ["Tirunelveli", "Thoothukudi"] as const;
 
 export default function ListingsScreen() {
@@ -183,27 +192,17 @@ function BusinessCard({
 }) {
   const call = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    Linking.openURL(`tel:${item.mobile}`);
+    Linking.openURL(`tel:${item.mobileNumber}`);
   };
   const whatsapp = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    const num = (item.whatsapp || item.mobile).replace(/\D/g, "");
+    const num = (item.whatsappNumber || item.mobileNumber).replace(/\D/g, "");
     const phone = num.length === 10 ? `91${num}` : num;
     Linking.openURL(`https://wa.me/${phone}`);
   };
   const maps = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    if (item.latitude && item.longitude) {
-      Linking.openURL(
-        `https://www.google.com/maps/search/?api=1&query=${item.latitude},${item.longitude}`
-      );
-    } else {
-      Linking.openURL(
-        `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-          item.name + " " + item.address
-        )}`
-      );
-    }
+    Linking.openURL(openMapsLink(item));
   };
 
   return (
@@ -215,10 +214,10 @@ function BusinessCard({
       <View style={styles.cardTop}>
         <View style={{ flex: 1 }}>
           <Text style={styles.cardTitle} numberOfLines={1}>
-            {item.name}
+            {item.businessName}
           </Text>
           <Text style={styles.cardCat} numberOfLines={1}>
-            {item.category.toUpperCase()} · {item.district}
+            {item.category.toUpperCase()} · {item.city || item.district}
           </Text>
         </View>
         <View style={styles.ratingPill}>
@@ -238,7 +237,7 @@ function BusinessCard({
             style={styles.metaIcon}
           />
           <Text style={styles.metaText} numberOfLines={1}>
-            {item.owner_name}
+            {item.ownerName}
           </Text>
         </View>
         <View style={styles.metaRow}>

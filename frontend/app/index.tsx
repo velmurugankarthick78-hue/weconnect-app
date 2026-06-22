@@ -81,16 +81,32 @@ export default function HomeScreen() {
               <Text style={styles.brandSub}>Tirunelveli · Thoothukudi</Text>
             </View>
           </View>
-          <Pressable
-            testID="add-business-header-btn"
-            style={styles.addBtn}
-            onPress={() => {
-              Haptics.selectionAsync();
-              router.push("/add");
-            }}
-          >
-            <Ionicons name="add" size={20} color={colors.brand} />
-          </Pressable>
+          <View style={styles.topActions}>
+            <Pressable
+              testID="admin-entry-btn"
+              style={styles.addBtn}
+              onPress={() => {
+                Haptics.selectionAsync();
+                router.push("/admin");
+              }}
+            >
+              <Ionicons
+                name="lock-closed-outline"
+                size={18}
+                color={colors.brand}
+              />
+            </Pressable>
+            <Pressable
+              testID="add-business-header-btn"
+              style={styles.addBtn}
+              onPress={() => {
+                Haptics.selectionAsync();
+                router.push("/add");
+              }}
+            >
+              <Ionicons name="add" size={20} color={colors.brand} />
+            </Pressable>
+          </View>
         </View>
 
         <View style={styles.hero}>
@@ -252,6 +268,7 @@ const styles = StyleSheet.create({
     color: colors.onSurface,
   },
   brandSub: { fontSize: font.sm, color: colors.muted, marginTop: 2 },
+  topActions: { flexDirection: "row", gap: spacing.sm },
   addBtn: {
     width: 40,
     height: 40,
