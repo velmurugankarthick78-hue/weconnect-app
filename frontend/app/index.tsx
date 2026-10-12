@@ -16,7 +16,8 @@ import { LinearGradient } from "expo-linear-gradient";
 import * as Haptics from "expo-haptics";
 
 import { colors, spacing, radius, font } from "@/src/theme";
-import { getCategories, type Category } from "@/src/api";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../src/firebase";
 
 const HERO_IMAGE =
   "https://images.pexels.com/photos/3792569/pexels-photo-3792569.jpeg";
@@ -31,11 +32,14 @@ export default function HomeScreen() {
   const [search, setSearch] = useState("");
   const [categories, setCategories] = useState<Category[]>([]);
   const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
+useEffect(() => {
     (async () => {
       try {
-        const cats = await getCategories();
+        const querySnapshot = await getDocs(collection(db, "categories"));
+        const cats = querySnapshot.docs.map(doc => ({
+          key: doc.id,
+          ...doc.data()
+        }));
         setCategories(cats);
       } catch (e) {
         console.log("cat err", e);
@@ -44,6 +48,8 @@ export default function HomeScreen() {
       }
     })();
   }, []);
+  
+    
 
   const handleSearch = useCallback(() => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
