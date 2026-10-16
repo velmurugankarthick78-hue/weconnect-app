@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.emergent.tirunelweconnect0120770c",
+    "sha256_cert_fingerprints": [
+      25:50:9F:0C:B0:19:DD:A5:AF:B5:FF:CB:41:7A:52:00:CB:1B:7B:07:19:A2:8F:4B:31:8B:E7:BF:5E:58:FE:41
+    ]
+  }
+}]
